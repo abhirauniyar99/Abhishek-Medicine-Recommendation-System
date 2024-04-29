@@ -1,0 +1,9 @@
+flask
+scikit-learn==2.1.1
+numpy
+pandas
+pickel
+Flask
+request
+flask_render_specific_template
+jsonify
