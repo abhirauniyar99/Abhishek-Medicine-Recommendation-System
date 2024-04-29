@@ -15,7 +15,7 @@ medications = pd.read_csv('datasets/medications.csv')
 diets = pd.read_csv("datasets/diets.csv")
 
 # load model===========================================
-svc = pickle.load(open(r"C:\Users\ar991\Abhishek-Medicine-Recomadation-system\models\svc.pkl", 'rb'))
+svc = pickle.load(open('models/svc.pkl','rb'))
 
 
 # ============================================================
